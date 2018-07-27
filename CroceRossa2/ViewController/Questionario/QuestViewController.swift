@@ -11,17 +11,20 @@ import UIKit
 class QuestViewController: UIViewController{
     
     @IBOutlet weak var labelMalattie: UILabel!
-    
+    @IBOutlet weak var textField: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //labelMalattie.text = Database.malattie.joined(separator: ", ")
+        
+        textField.layer.borderWidth = CGFloat(Float(0.7))
+        textField.layer.cornerRadius = CGFloat(Float(5.0))
+        textField.layer.borderColor = UIColor.lightGray.cgColor
     }
     
     
     
     @IBAction func showPopUpMalattie(_ sender: Any) {
-        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PopUpMalattieID") as! PopUpMalattieViewController
+        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PopUpMalattieID") as! PopUpMalattieViewController;
         self.addChildViewController(popOverVC)
         popOverVC.view.frame = self.view.frame
         self.view.addSubview(popOverVC.view)
@@ -34,17 +37,12 @@ class QuestViewController: UIViewController{
         self.view.addSubview(popOverVC.view)
         popOverVC.didMove(toParentViewController: self)
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func showPopUpAllergie(_ sender: Any) {
+        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PopUpAllergieID") as! PopUpAllergieViewController;        self.addChildViewController(popOverVC)
+        popOverVC.view.frame = self.view.frame
+        self.view.addSubview(popOverVC.view)
+        popOverVC.didMove(toParentViewController: self)
     }
-    */
-
-    
-    
-    
+  
 }

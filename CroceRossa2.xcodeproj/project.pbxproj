@@ -19,8 +19,16 @@
 		63B99981208DF69D0063C83F /* QuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B99980208DF69D0063C83F /* QuestViewController.swift */; };
 		63B99983208DF71C0063C83F /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B99982208DF71C0063C83F /* RegViewController.swift */; };
 		63D77F0120A0689B00A3D25E /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D77F0020A0689B00A3D25E /* Database.swift */; };
+		FD16D7102106242E00F9D3E5 /* PopUpAllergieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD16D70F2106242E00F9D3E5 /* PopUpAllergieViewController.swift */; };
+		FD16D7122106245F00F9D3E5 /* AllergiePopUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD16D7112106245F00F9D3E5 /* AllergiePopUpTableViewController.swift */; };
+		FD2FBE1B210B2904002593E3 /* OrarioFarmaciCustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2FBE1A210B2904002593E3 /* OrarioFarmaciCustomCollectionViewCell.swift */; };
+		FD3CDF3C210A862000C031A8 /* GiornoOraFarmaci.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3CDF3B210A862000C031A8 /* GiornoOraFarmaci.swift */; };
 		FD431D0F2105F157004BCA51 /* PopUpInterventiSubitiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD431D0E2105F157004BCA51 /* PopUpInterventiSubitiViewController.swift */; };
 		FD431D112105F2F1004BCA51 /* InterventiSubitiPopUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD431D102105F2F1004BCA51 /* InterventiSubitiPopUpTableViewController.swift */; };
+		FD46B9F9210798100046F7DC /* AddFarmacoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46B9F8210798100046F7DC /* AddFarmacoViewController.swift */; };
+		FD46B9FB21079A330046F7DC /* CalendarioFarmaciCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46B9FA21079A330046F7DC /* CalendarioFarmaciCustomCell.swift */; };
+		FD46B9FD2107A7500046F7DC /* PopUpAddFarmacoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46B9FC2107A7500046F7DC /* PopUpAddFarmacoViewController.swift */; };
+		FD46BA012107C2E40046F7DC /* Farmaco.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46BA002107C2E40046F7DC /* Farmaco.swift */; };
 		FD940BE620F7E9F90047D227 /* PopUpMalattieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD940BE520F7E9F90047D227 /* PopUpMalattieViewController.swift */; };
 		FDCAF41820FB7CCA00E41755 /* MalattiePopUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCAF41720FB7CCA00E41755 /* MalattiePopUpTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -40,8 +48,16 @@
 		63B99980208DF69D0063C83F /* QuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewController.swift; sourceTree = "<group>"; };
 		63B99982208DF71C0063C83F /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
 		63D77F0020A0689B00A3D25E /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		FD16D70F2106242E00F9D3E5 /* PopUpAllergieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpAllergieViewController.swift; sourceTree = "<group>"; };
+		FD16D7112106245F00F9D3E5 /* AllergiePopUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergiePopUpTableViewController.swift; sourceTree = "<group>"; };
+		FD2FBE1A210B2904002593E3 /* OrarioFarmaciCustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrarioFarmaciCustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		FD3CDF3B210A862000C031A8 /* GiornoOraFarmaci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiornoOraFarmaci.swift; sourceTree = "<group>"; };
 		FD431D0E2105F157004BCA51 /* PopUpInterventiSubitiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpInterventiSubitiViewController.swift; sourceTree = "<group>"; };
 		FD431D102105F2F1004BCA51 /* InterventiSubitiPopUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterventiSubitiPopUpTableViewController.swift; sourceTree = "<group>"; };
+		FD46B9F8210798100046F7DC /* AddFarmacoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFarmacoViewController.swift; sourceTree = "<group>"; };
+		FD46B9FA21079A330046F7DC /* CalendarioFarmaciCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioFarmaciCustomCell.swift; sourceTree = "<group>"; };
+		FD46B9FC2107A7500046F7DC /* PopUpAddFarmacoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpAddFarmacoViewController.swift; sourceTree = "<group>"; };
+		FD46BA002107C2E40046F7DC /* Farmaco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farmaco.swift; sourceTree = "<group>"; };
 		FD940BE520F7E9F90047D227 /* PopUpMalattieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpMalattieViewController.swift; sourceTree = "<group>"; };
 		FDCAF41720FB7CCA00E41755 /* MalattiePopUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalattiePopUpTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,11 +115,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FD16D70E210623E200F9D3E5 /* PopUpVC */ = {
+			isa = PBXGroup;
+			children = (
+				FD940BE520F7E9F90047D227 /* PopUpMalattieViewController.swift */,
+				FDCAF41720FB7CCA00E41755 /* MalattiePopUpTableViewController.swift */,
+				FD431D0E2105F157004BCA51 /* PopUpInterventiSubitiViewController.swift */,
+				FD431D102105F2F1004BCA51 /* InterventiSubitiPopUpTableViewController.swift */,
+				FD16D70F2106242E00F9D3E5 /* PopUpAllergieViewController.swift */,
+				FD16D7112106245F00F9D3E5 /* AllergiePopUpTableViewController.swift */,
+				FD46B9FC2107A7500046F7DC /* PopUpAddFarmacoViewController.swift */,
+			);
+			path = PopUpVC;
+			sourceTree = "<group>";
+		};
+		FD16D719210690D300F9D3E5 /* Questionario */ = {
+			isa = PBXGroup;
+			children = (
+				FD16D70E210623E200F9D3E5 /* PopUpVC */,
+				63B99980208DF69D0063C83F /* QuestViewController.swift */,
+				FD46B9F8210798100046F7DC /* AddFarmacoViewController.swift */,
+				FD46B9FA21079A330046F7DC /* CalendarioFarmaciCustomCell.swift */,
+				FD2FBE1A210B2904002593E3 /* OrarioFarmaciCustomCollectionViewCell.swift */,
+			);
+			path = Questionario;
+			sourceTree = "<group>";
+		};
 		FDA9ED4221017923008CB9FC /* modelli */ = {
 			isa = PBXGroup;
 			children = (
 				63D77F0020A0689B00A3D25E /* Database.swift */,
 				6360752C2088A6EC00791FBC /* modello.swift */,
+				FD46BA002107C2E40046F7DC /* Farmaco.swift */,
+				FD3CDF3B210A862000C031A8 /* GiornoOraFarmaci.swift */,
 			);
 			path = modelli;
 			sourceTree = "<group>";
@@ -111,14 +155,10 @@
 		FDA9ED432101792D008CB9FC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FD16D719210690D300F9D3E5 /* Questionario */,
 				6316BFB6208870510083669A /* ViewController.swift */,
-				6316BFD020887FAA0083669A /* HomeViewController.swift */,
-				63B99980208DF69D0063C83F /* QuestViewController.swift */,
 				63B99982208DF71C0063C83F /* RegViewController.swift */,
-				FD940BE520F7E9F90047D227 /* PopUpMalattieViewController.swift */,
-				FDCAF41720FB7CCA00E41755 /* MalattiePopUpTableViewController.swift */,
-				FD431D0E2105F157004BCA51 /* PopUpInterventiSubitiViewController.swift */,
-				FD431D102105F2F1004BCA51 /* InterventiSubitiPopUpTableViewController.swift */,
+				6316BFD020887FAA0083669A /* HomeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -196,13 +236,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD2FBE1B210B2904002593E3 /* OrarioFarmaciCustomCollectionViewCell.swift in Sources */,
 				FD940BE620F7E9F90047D227 /* PopUpMalattieViewController.swift in Sources */,
+				FD46BA012107C2E40046F7DC /* Farmaco.swift in Sources */,
 				6360752D2088A6EC00791FBC /* modello.swift in Sources */,
 				63B99983208DF71C0063C83F /* RegViewController.swift in Sources */,
+				FD3CDF3C210A862000C031A8 /* GiornoOraFarmaci.swift in Sources */,
 				FD431D0F2105F157004BCA51 /* PopUpInterventiSubitiViewController.swift in Sources */,
+				FD16D7102106242E00F9D3E5 /* PopUpAllergieViewController.swift in Sources */,
 				FDCAF41820FB7CCA00E41755 /* MalattiePopUpTableViewController.swift in Sources */,
 				6316BFB7208870510083669A /* ViewController.swift in Sources */,
 				63B99981208DF69D0063C83F /* QuestViewController.swift in Sources */,
+				FD46B9F9210798100046F7DC /* AddFarmacoViewController.swift in Sources */,
+				FD16D7122106245F00F9D3E5 /* AllergiePopUpTableViewController.swift in Sources */,
+				FD46B9FB21079A330046F7DC /* CalendarioFarmaciCustomCell.swift in Sources */,
+				FD46B9FD2107A7500046F7DC /* PopUpAddFarmacoViewController.swift in Sources */,
 				6316BFB5208870500083669A /* AppDelegate.swift in Sources */,
 				63D77F0120A0689B00A3D25E /* Database.swift in Sources */,
 				FD431D112105F2F1004BCA51 /* InterventiSubitiPopUpTableViewController.swift in Sources */,
@@ -345,7 +393,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5D9YD4QP36;
+				DEVELOPMENT_TEAM = HZ7L234FDY;
 				INFOPLIST_FILE = CroceRossa2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ITTS-A.-Volta.CroceRossa2";
@@ -362,11 +410,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5D9YD4QP36;
+				DEVELOPMENT_TEAM = HZ7L234FDY;
 				INFOPLIST_FILE = CroceRossa2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ITTS-A.-Volta.CroceRossa2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

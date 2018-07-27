@@ -15,10 +15,12 @@ class Database{
     var puntatore: OpaquePointer? = nil
     static var malattie: [String] = []
     static var interventiChirurgici: [String] = []
+    static var allergie: [String] = []
+    static var farmaci: [Farmaco] = [Farmaco]()
     
     //costruttore con connessione al db
     init(){
-        if sqlite3_open("/Users/admin_6150/Desktop/CroceRossa2prova/Data.db", &db) == SQLITE_OK{
+        if sqlite3_open("/Users/admin_6150/Desktop/CroceRossa2provacopia/Data.db", &db) == SQLITE_OK{
             print("Collegamento database ok")
         }
         else{
