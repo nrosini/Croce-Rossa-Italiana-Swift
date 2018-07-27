@@ -10,12 +10,13 @@ import UIKit
 
 class AddFarmacoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UICollectionViewDelegate, UICollectionViewDataSource {
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    static var indexRow : Int = Int()
     
-        let indexPath = self.tableView.indexPath(for: )
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        print("GIORNO CELLA: ", AddFarmacoViewController.farmaco.getGiornoOra().getCount(giorno: CalendarioFarmaciCustomCell.giorno))
-        return AddFarmacoViewController.farmaco.getGiornoOra().getCount(giorno: CalendarioFarmaciCustomCell.giorno)
+        /*print("GIORNO CELLA: ", AddFarmacoViewController.farmaco.getGiornoOra().getCount(giorno: CalendarioFarmaciCustomCell.giorno))
+        return AddFarmacoViewController.farmaco.getGiornoOra().getCount(giorno: CalendarioFarmaciCustomCell.giorno)*/
+        return 0;
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -56,23 +57,8 @@ class AddFarmacoViewController: UIViewController, UITableViewDelegate, UITableVi
         
         cell.labelGiornoSettimana.text = giorniSettimana[indexPath.item].prefix(3).uppercased()
         
-        /*for giorno in giorniSettimana {
-            for ind in AddFarmacoViewController.farmaco.getGiornoOra().getArray(giorno: giorno){
-                
-            }
-        }*/
-        
         return cell
     }
-    
-    /*@IBAction func showPopUpFarmaci(_ sender: Any) {
-        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PopUpAddFarmacoID") as! PopUpAddFarmacoViewController
-        self.addChildViewController(popOverVC)
-        popOverVC.view.frame = self.view.frame
-        self.view.addSubview(popOverVC.view)
-        popOverVC.didMove(toParentViewController: self)
-        
-    }*/
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         

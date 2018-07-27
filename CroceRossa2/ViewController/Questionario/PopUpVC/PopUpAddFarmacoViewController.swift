@@ -38,6 +38,7 @@ class PopUpAddFarmacoViewController: UIViewController {
             self.passData()
             NotificationCenter.default.post(name: NSNotification.Name(rawValue: "load"), object: nil)
             NotificationCenter.default.post(name: NSNotification.Name(rawValue: "loadCollection"), object: nil)
+            AddFarmacoViewController.indexRow = 0
         }else{
             
             let alert = UIAlertController(title: "Immissione dei campi non completa", message: "riempire il campo descrivente la quantità di dose medicinale", preferredStyle: .alert)

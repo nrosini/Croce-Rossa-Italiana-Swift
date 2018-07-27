@@ -28,10 +28,6 @@ class CalendarioFarmaciCustomCell: UITableViewCell{
     @objc func reloadCollectionView(){
         print("CADAVERE")
         self.collectionView.reloadData()
-        /*self.collectionView.performBatchUpdates({
-            let indexPath = IndexPath(row: AddFarmacoViewController.farmaco.getGiornoOra().getCount(giorno: CalendarioFarmaciCustomCell.giorno) - 1, section: 0)
-            self.collectionView.insertItems(at: [indexPath])
-            }, completion: nil)*/
     }
 
 }
@@ -48,22 +44,3 @@ extension CalendarioFarmaciCustomCell {
     }
     
 }
-
-/*extension AddFarmacoViewController: UICollectionViewDelegate, UICollectionViewDataSource {
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellaCollectionView", for: indexPath) as! OrarioFarmaciCustomCollectionViewCell
-        
-        cell.labelOra.text = AddFarmacoViewController.farmaco.getGiornoOra().getOra(giorno: CalendarioFarmaciCustomCell.giorno, indice: indexPath.item)
-        
-        cell.labelDose.text = AddFarmacoViewController.farmaco.getGiornoOra().getDose(giorno: CalendarioFarmaciCustomCell.giorno, indice: indexPath.item)
-        
-        return cell
-    }
-    
-    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        print("GIORNO CELLA: ", AddFarmacoViewController.farmaco.getGiornoOra().getCount(giorno: CalendarioFarmaciCustomCell.giorno))
-        return AddFarmacoViewController.farmaco.getGiornoOra().getCount(giorno: CalendarioFarmaciCustomCell.giorno)
-    }
-}*/
