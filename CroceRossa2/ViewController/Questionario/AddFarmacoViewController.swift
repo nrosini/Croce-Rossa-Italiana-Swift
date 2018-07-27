@@ -11,8 +11,8 @@ import UIKit
 class AddFarmacoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
-        let indexPath = IndexPath(item: <#T##Int#>, section: <#T##Int#>)
+    
+        let indexPath = self.tableView.indexPath(for: )
         
         print("GIORNO CELLA: ", AddFarmacoViewController.farmaco.getGiornoOra().getCount(giorno: CalendarioFarmaciCustomCell.giorno))
         return AddFarmacoViewController.farmaco.getGiornoOra().getCount(giorno: CalendarioFarmaciCustomCell.giorno)
